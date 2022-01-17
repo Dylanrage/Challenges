@@ -1,0 +1,15 @@
+{
+    "groups": [
+         { "group": { "group_id": "1.0" 
+                    , "group_name": "test" ,    
+                      "members": [   
+                        {"person_id": "1" , "person_name": "Dylan", "email": "dylan.ragevandeneynde@student.odisee.be"},
+                        {"person_id": "2" , "person_name": "Stijn", "email": "stijn.breugelmans@student.odisee.be"},
+                        {"person_id": "3" , "person_name": "Falko", "email": "falko.demaeght@student.odisee.be"},
+                        {"person_id": "4" , "person_name": "Dylan", "email": "dylan.rage@icloud.com"}
+                      ]
+                    }
+         }  
+    ]
+}
+   
