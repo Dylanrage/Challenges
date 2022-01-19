@@ -3,7 +3,7 @@ IP_HOST=10.0.2.15
 ping -c 5 $IP_HOST 
 INTERFACE=GigabitEthernet1
 USERNAME=cisco
-PASSWORD=cisco123!
+PASSWORD=Cisco123!
 status_code=$(curl -ks \
 -w "%{http_code}" \
 -o /dev/null \

@@ -1,0 +1,10 @@
+---
+ - hosts: localhost
+   become: yes
+   tasks:
+   - name: challenge 17
+     git:
+       repo: https://github.com/nikolayg/sample-python-api
+       dest: /home/devasc/labs/challenges/challenge_17/test
+       clone: yes
+       update: yes

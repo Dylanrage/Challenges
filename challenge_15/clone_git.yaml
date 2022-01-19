@@ -1,0 +1,13 @@
+---
+ - hosts: localhost
+   become: yes
+   tasks:
+   - name: challenge 15
+     git:
+       repo: https://github.com/Dylanrage/challenge_15_data
+       dest: /home/devasc/Documents/challenge_15
+       clone: yes
+       update: yes
+   - name: execute python script
+     command: python3 /home/devasc/Documents/challenge_15/challenge_15.py
+     run_once: true

@@ -16,6 +16,12 @@ print(json.dumps(atk, indent=8))
 #### filter access-token
 print('-----3-----')
 print(atk["access_token"])
+print('-----3A----')
+
+def getAccessToken(p_json, p_key):
+    return p_json[p_key]
+print(getAccessToken(p_key="access_token",p_json=atk))
+#print(getAccessToken(atk,"access_token"))
 #### TRANSFORMING DATA TYPES
 print('-----4-----')
 ats = json.dumps(atk)  #### SERIALIZATION
@@ -23,4 +29,4 @@ print(type(ats))
 ####
 print('-----5-----')
 atj = json.loads(ats)
-print(type(atj)
+print(type(atj))
